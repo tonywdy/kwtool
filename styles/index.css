@@ -1,0 +1,48 @@
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+
+/**
+ * author: 带只拖鞋去流浪
+ */
+
+html,
+body,
+#app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Microsoft Yahei', '幼圆', Arial;
+}
+
+header {
+    height: 50px;
+    width: calc(100% - 40px);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    user-select: none;
+}
+
+main {
+    margin: 0 auto;
+    min-height: calc(100% - 140px);
+    max-width: 1226px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    user-select: none;
+}

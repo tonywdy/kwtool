@@ -1,0 +1,34 @@
+/**
+ * author: 带只拖鞋去流浪
+ */
+
+.website-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.website-frist-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2d8cf0;
+}
+
+.website-second-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.website-gitee {
+    height: 100%;
+    width: auto;
+}
+
+.website-gitee img {
+    height: 60%;
+    width: auto;
+    margin: 10% 0;
+}
