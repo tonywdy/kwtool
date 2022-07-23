@@ -1,0 +1,51 @@
+<!-- 
+    author: 带只拖鞋去流浪
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>头像挂件生成</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/html2canvas.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="website-title">
+                <h1 class="website-frist-title"> 本公具由kingwdy收集制作 </h1>
+                <h2 class="website-second-title">感谢使用</h2>
+            </div>
+            <div class="website-gitee">
+                <a href=#>
+                    <img src="https://gitlab.com/KINGWDY/photobed/-/raw/main/1332.gif" alt="">
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <div class="upload-avator">
+                <h3>你的头像</h3>
+                <div class="upload-avator-container">
+                    <input type="file" name="" id="fileIpt" accept="image/png, image/jpg, image/jpeg"
+                        style="display:none;">
+                    <div class="add-avator" id="addBtn">
+                        +
+                    </div>
+                </div>
+            </div>
+            <div class="avator-widget">
+                <h3>头像挂件</h3>
+                <div class="avator-widget-container" id="avator-widget-container"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
